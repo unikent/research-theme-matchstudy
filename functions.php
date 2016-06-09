@@ -8,6 +8,7 @@
  * @link https://github.com/roots/sage/pull/1042
  */
 $theme_includes = [
+	'lib/child_assets.php',			// Add child assets
 	'lib/call_to_action.php',       // Add call to action menu
 ];
 
