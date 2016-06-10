@@ -1,0 +1,74 @@
+@mixin match-button-variant($color, $background, $border) {
+    color:            $color;
+    background-color: $background;
+    border-color:     $border;
+    //  $shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(0,0,0,.075);
+    //  .box-shadow($shadow);
+
+    $active-background: transparent;
+    $active-border: $background;
+
+    &:focus,
+    &.focus,
+    &:active,
+    &.active,
+    .open > &.dropdown-toggle {
+        color:            $color;
+        background-color: $active-background;
+        border-color:     $active-border;
+    }
+    @include hover {
+        color:            $active-border;
+        background-color: $active-background;
+        border-color:     $active-border;
+        text-decoration:  none;
+    }
+    &:active,
+    &.active,
+    .open > &.dropdown-toggle {
+        // Remove the gradient for the pressed/active state
+        background-image: none;
+        @include box-shadow(inset 0 3px 5px rgba(0, 0, 0, .125));
+    }
+    &.disabled,
+    &:disabled,
+    fieldset[disabled] & {
+        &:focus,
+        &.focus {
+            background-color: $background;
+            border-color:     $border;
+        }
+        @include hover {
+            background-color: $background;
+            border-color:     $border;
+        }
+    }
+}
+
+.card.header-card-overlay{
+    ul.menu{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-shadow: none;
+        li{
+            display: inline-block;
+            margin: 0 1rem 0 0;
+            padding: 0;
+
+            a{
+                @extend .btn;
+                @include match-button-variant($brand-primary,#FFF,#FFF);
+            }
+
+            &:before{
+                content: '';
+                display: none;
+            }
+        }
+    }
+}
+
+.home .card.header-card-overlay .card-title-wrap{
+    pointer-events: all;
+}

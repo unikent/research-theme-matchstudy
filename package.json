@@ -1,23 +1,38 @@
 {
-  "name": "research-theme-matchstudy",
+
+  "name": "research-theme",
   "version": "1.0.0",
-  "author": "IS WEBDEV <is-webdev@kent.ac.uk>",
-  "homepage": "https://github.com/unikent/research-theme-matchstudy",
+  "private": true,
   "repository": {
     "type": "git",
-    "url": "git://unikent/research-theme-matchstudy"
+    "url": "git://github.com/unikent/research-theme.git"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://opensource.org/licenses/MIT"
-    }
-  ],
+  "engines": {
+    "node": ">= 0.12.0",
+    "npm": ">=2.1.5"
+  },
   "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "babel-preset-es2015": "^6.9.0",
+    "bootstrap": "4.0.0-alpha.2",
+    "cssnano": "^3.3.2",
+    "dotenv": "^1.2.0",
     "grunt": "~0.4.5",
-
-    "load-grunt-tasks": "~1.0.0",
+    "grunt-autoprefixer": "~1.0.1",
+    "grunt-babel": "^6.0.0",
+    "grunt-contrib-concat": "~0.5.0",
+    "grunt-contrib-copy": "~0.8.2",
+    "grunt-contrib-uglify": "~0.6.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-cssnano": "^2.0.1",
+    "grunt-eslint": "^18.0.0",
+    "grunt-postcss": "~0.7.0",
     "grunt-sass": "^1.1.0",
+    "grunt-sass-lint": "^0.2.0",
+    "grunt-subgrunt": "^1.1.0",
+    "load-grunt-tasks": "~1.0.0",
+    "pixrem": "^3.0.0",
     "time-grunt": "~1.0.0"
-  }
+  },
+  "dependencies": {}
 }
