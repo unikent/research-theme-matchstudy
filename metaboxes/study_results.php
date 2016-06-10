@@ -24,7 +24,7 @@ $mm->the_field('study_results_quote');
 ?>
 <div class="mm_input_group">
     <label for="<?php $mm->the_name(); ?>">
-        Quote:
+        Quote:      
         <input id="<?php $mm->the_name(); ?>" name="<?php $mm->the_name(); ?>" value="<?php $mm->the_value(); ?>" >
     </label>
 </div>
@@ -40,7 +40,7 @@ $mm->the_field('study_results_quote_attribution');
 </div>
 <?php
 
-$mm->the_field('study_results_category');
+$mm->the_field('with_news_category');
 ?>
 <div class="mm_input_group">
     <label for="<?php $mm->the_name(); ?>">Category:</label>
@@ -59,7 +59,7 @@ $mm->the_field('study_results_category');
 </div>
 
 <?php
-$mm->the_field('study_results_posts');
+$mm->the_field('with_news_post_count');
 ?>
 <div class="mm_input_group">
     <label for="<?php $mm->the_name(); ?>">
