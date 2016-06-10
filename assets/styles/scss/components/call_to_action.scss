@@ -52,14 +52,25 @@
         list-style: none;
         text-shadow: none;
         li{
-            display: inline-block;
-            margin: 0 1rem 0 0;
+            margin-bottom: 0.5rem;
             padding: 0;
 
             a{
+                width:100%;
                 @extend .btn;
-                @include match-button-variant($brand-primary,#FFF,#FFF);
+                @include match-button-variant($brand-primary,#FFF,#FFF); 
             }
+
+            @include media-breakpoint-up(sm){
+                display: inline-block;
+                margin: 0 1rem 0 0;
+
+                a {
+                    width:auto;
+                }
+            }
+
+
 
             &:before{
                 content: '';

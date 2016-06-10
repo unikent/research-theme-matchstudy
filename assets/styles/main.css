@@ -5294,29 +5294,29 @@ a.text-danger:focus, a.text-danger:hover {
 
 @font-face {
   font-family: 'ArialLight';
-  src: url("../../../research-theme/assets/fonts/arialmt/arialmt-light-webfont.eot");
-  src: url("../../../research-theme/assets/fonts/arialmt/arialmt-light-webfont.eot?#iefix") format("embedded-opentype"), url("../../../research-theme/assets/fonts/arialmt/arialmt-light-webfont.woff2") format("woff2"), url("../../../research-theme/assets/fonts/arialmt/arialmt-light-webfont.woff") format("woff"), url("../../../research-theme/assets/fonts/arialmt/arialmt-light-webfont.ttf") format("truetype"), url("../../../research-theme/assets/fonts/arialmt/arialmt-mtlight-webfont.svg#arial_mtmt_light") format("svg");
+  src: url("../fonts/arialmt/arialmt-light-webfont.eot");
+  src: url("../fonts/arialmt/arialmt-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/arialmt/arialmt-light-webfont.woff2") format("woff2"), url("../fonts/arialmt/arialmt-light-webfont.woff") format("woff"), url("../fonts/arialmt/arialmt-light-webfont.ttf") format("truetype"), url("../fonts/arialmt/arialmt-mtlight-webfont.svg#arial_mtmt_light") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'ArialLight';
-  src: url("../../../research-theme/assets/fonts/arialmt/arialmt-lightitalic-webfont.eot");
-  src: url("../../../research-theme/assets/fonts/arialmt/arialmt-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../../../research-theme/assets/fonts/arialmt/arialmt-lightitalic-webfont.woff2") format("woff2"), url("../../../research-theme/assets/fonts/arialmt/arialmt-lightitalic-webfont.woff") format("woff"), url("../../../research-theme/assets/fonts/arialmt/arialmt-lightitalic-webfont.ttf") format("truetype"), url("../../../research-theme/assets/fonts/arialmt/arialmt-lightitalic-webfont.svg#arial_mtlight_italic") format("svg");
+  src: url("../fonts/arialmt/arialmt-lightitalic-webfont.eot");
+  src: url("../fonts/arialmt/arialmt-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/arialmt/arialmt-lightitalic-webfont.woff2") format("woff2"), url("../fonts/arialmt/arialmt-lightitalic-webfont.woff") format("woff"), url("../fonts/arialmt/arialmt-lightitalic-webfont.ttf") format("truetype"), url("../fonts/arialmt/arialmt-lightitalic-webfont.svg#arial_mtlight_italic") format("svg");
   font-weight: normal;
   font-style: italic; }
 
 @font-face {
   font-family: 'ArialLight';
-  src: url("../../../research-theme/assets/fonts/arialmt/arialmt-medium-webfont.eot");
-  src: url("../../../research-theme/assets/fonts/arialmt/arialmt-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../../../research-theme/assets/fonts/arialmt/arialmt-medium-webfont.woff2") format("woff2"), url("../../../research-theme/assets/fonts/arialmt/arialmt-medium-webfont.woff") format("woff"), url("../../../research-theme/assets/fonts/arialmt/arialmt-medium-webfont.ttf") format("truetype"), url("../../../research-theme/assets/fonts/arialmt/arialmt-medium-webfont.svg#arial_mtmedium") format("svg");
+  src: url("../fonts/arialmt/arialmt-medium-webfont.eot");
+  src: url("../fonts/arialmt/arialmt-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/arialmt/arialmt-medium-webfont.woff2") format("woff2"), url("../fonts/arialmt/arialmt-medium-webfont.woff") format("woff"), url("../fonts/arialmt/arialmt-medium-webfont.ttf") format("truetype"), url("../fonts/arialmt/arialmt-medium-webfont.svg#arial_mtmedium") format("svg");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
   font-family: 'ArialLight';
-  src: url("../../../research-theme/assets/fonts/arialmt/arialmt-mediumitalic-webfont.eot");
-  src: url("../../../research-theme/assets/fonts/arialmt/arialmt-mediumitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../../../research-theme/assets/fonts/arialmt/arialmt-mediumitalic-webfont.woff2") format("woff2"), url("../../../research-theme/assets/fonts/arialmt/arialmt-mediumitalic-webfont.woff") format("woff"), url("../../../research-theme/assets/fonts/arialmt/arialmt-mediumitalic-webfont.ttf") format("truetype"), url("../../../research-theme/assets/fonts/arialmt/arialmt-mediumitalic-webfont.svg#arial_mtmedium_italic") format("svg");
+  src: url("../fonts/arialmt/arialmt-mediumitalic-webfont.eot");
+  src: url("../fonts/arialmt/arialmt-mediumitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/arialmt/arialmt-mediumitalic-webfont.woff2") format("woff2"), url("../fonts/arialmt/arialmt-mediumitalic-webfont.woff") format("woff"), url("../fonts/arialmt/arialmt-mediumitalic-webfont.ttf") format("truetype"), url("../fonts/arialmt/arialmt-mediumitalic-webfont.svg#arial_mtmedium_italic") format("svg");
   font-weight: bold;
   font-style: italic; }
 
@@ -7996,6 +7996,13 @@ nav.breadcrumb {
       margin-right: -15px;
       margin-right: -0.9375rem;
       max-width: calc(100% + 1.875rem); }
+      .card.card-backed .card-media-wrap:first-child:before, .card-panel.cards-backed .card .card-media-wrap:first-child:before, .cards-backed.card-panel-flush .card .card-media-wrap:first-child:before,
+      .card.card-backed .card-img:first-child:before, .card-panel.cards-backed .card .card-img:first-child:before, .cards-backed.card-panel-flush .card .card-img:first-child:before,
+      .card.card-backed .card-img-top:first-child:before, .card-panel.cards-backed .card .card-img-top:first-child:before, .cards-backed.card-panel-flush .card .card-img-top:first-child:before {
+        display: block;
+        height: 50%;
+        width: 100%;
+        background: red; }
     .card.card-backed .card-media-wrap .card-img:first-child, .card-panel.cards-backed .card .card-media-wrap .card-img:first-child, .cards-backed.card-panel-flush .card .card-media-wrap .card-img:first-child,
     .card.card-backed .card-media-wrap .card-img-top:first-child, .card-panel.cards-backed .card .card-media-wrap .card-img-top:first-child, .cards-backed.card-panel-flush .card .card-media-wrap .card-img-top:first-child {
       margin: 0; }
@@ -8550,50 +8557,6 @@ nav.breadcrumb {
   .cards-list.cards-backed .card .card-img:first-child,
   .cards-list.cards-backed .card img:first-child {
     margin-left: 0;
-    margin-bottom: 16px;
-    margin-bottom: 1rem; }
-  .cards-backed .card-list-item .card-media-wrap:first-child .card-img-top, .cards-backed .card-panel.cards-list .card-panel-body .card .card-media-wrap:first-child .card-img-top, .card-panel.cards-list .card-panel-body .cards-backed .card .card-media-wrap:first-child .card-img-top, .cards-backed .cards-list.card-panel-flush .card-panel-body .card .card-media-wrap:first-child .card-img-top, .cards-list.card-panel-flush .card-panel-body .cards-backed .card .card-media-wrap:first-child .card-img-top, .cards-backed .card-panel .card-panel-body .card-panel-list .card .card-media-wrap:first-child .card-img-top, .card-panel .card-panel-body .card-panel-list .cards-backed .card .card-media-wrap:first-child .card-img-top, .cards-backed .card-panel-flush .card-panel-body .card-panel-list .card .card-media-wrap:first-child .card-img-top, .card-panel-flush .card-panel-body .card-panel-list .cards-backed .card .card-media-wrap:first-child .card-img-top,
-  .cards-backed .card-list-item .card-media-wrap:first-child .card-img:first-child,
-  .cards-backed .card-panel.cards-list .card-panel-body .card .card-media-wrap:first-child .card-img:first-child, .card-panel.cards-list .card-panel-body
-  .cards-backed .card .card-media-wrap:first-child .card-img:first-child,
-  .cards-backed .cards-list.card-panel-flush .card-panel-body .card .card-media-wrap:first-child .card-img:first-child, .cards-list.card-panel-flush .card-panel-body
-  .cards-backed .card .card-media-wrap:first-child .card-img:first-child,
-  .cards-backed .card-panel .card-panel-body .card-panel-list .card .card-media-wrap:first-child .card-img:first-child, .card-panel .card-panel-body .card-panel-list
-  .cards-backed .card .card-media-wrap:first-child .card-img:first-child,
-  .cards-backed .card-panel-flush .card-panel-body .card-panel-list .card .card-media-wrap:first-child .card-img:first-child, .card-panel-flush .card-panel-body .card-panel-list
-  .cards-backed .card .card-media-wrap:first-child .card-img:first-child,
-  .cards-backed .card-list-item .card-media-wrap:first-child img:first-child,
-  .cards-backed .card-panel.cards-list .card-panel-body .card .card-media-wrap:first-child img:first-child, .card-panel.cards-list .card-panel-body
-  .cards-backed .card .card-media-wrap:first-child img:first-child,
-  .cards-backed .cards-list.card-panel-flush .card-panel-body .card .card-media-wrap:first-child img:first-child, .cards-list.card-panel-flush .card-panel-body
-  .cards-backed .card .card-media-wrap:first-child img:first-child,
-  .cards-backed .card-panel .card-panel-body .card-panel-list .card .card-media-wrap:first-child img:first-child, .card-panel .card-panel-body .card-panel-list
-  .cards-backed .card .card-media-wrap:first-child img:first-child,
-  .cards-backed .card-panel-flush .card-panel-body .card-panel-list .card .card-media-wrap:first-child img:first-child, .card-panel-flush .card-panel-body .card-panel-list
-  .cards-backed .card .card-media-wrap:first-child img:first-child,
-  .card-backed.card-list-item .card-media-wrap:first-child .card-img-top, .card-panel.cards-list .card-panel-body .card-backed.card .card-media-wrap:first-child .card-img-top, .cards-list.card-panel-flush .card-panel-body .card-backed.card .card-media-wrap:first-child .card-img-top, .card-panel.cards-list .card-panel-body .card-panel.cards-backed .card .card-media-wrap:first-child .card-img-top, .card-panel.cards-backed .card-panel.cards-list .card-panel-body .card .card-media-wrap:first-child .card-img-top, .cards-list.card-panel-flush .card-panel-body .card-panel.cards-backed .card .card-media-wrap:first-child .card-img-top, .card-panel.cards-backed .cards-list.card-panel-flush .card-panel-body .card .card-media-wrap:first-child .card-img-top, .card-panel.cards-list .card-panel-body .cards-backed.card-panel-flush .card .card-media-wrap:first-child .card-img-top, .cards-backed.card-panel-flush .card-panel.cards-list .card-panel-body .card .card-media-wrap:first-child .card-img-top, .cards-list.card-panel-flush .card-panel-body .cards-backed.card-panel-flush .card .card-media-wrap:first-child .card-img-top, .cards-backed.card-panel-flush .cards-list.card-panel-flush .card-panel-body .card .card-media-wrap:first-child .card-img-top, .card-panel.cards-backed .card-list-item.card .card-media-wrap:first-child .card-img-top, .cards-backed.card-panel-flush .card-list-item.card .card-media-wrap:first-child .card-img-top, .card-panel.cards-backed .card-panel-body .card-panel-list .card .card-media-wrap:first-child .card-img-top, .card-panel .card-panel-body .card-panel-list .cards-backed.card-panel-flush .card .card-media-wrap:first-child .card-img-top, .card-panel-flush .card-panel-body .card-panel-list .card-panel.cards-backed .card .card-media-wrap:first-child .card-img-top, .cards-backed.card-panel-flush .card-panel-body .card-panel-list .card .card-media-wrap:first-child .card-img-top, .card-panel .card-panel-body .card-panel-list .card-backed.card .card-media-wrap:first-child .card-img-top, .card-panel-flush .card-panel-body .card-panel-list .card-backed.card .card-media-wrap:first-child .card-img-top,
-  .card-backed.card-list-item .card-media-wrap:first-child .card-img:first-child, .card-panel.cards-list .card-panel-body .card-backed.card .card-media-wrap:first-child .card-img:first-child, .cards-list.card-panel-flush .card-panel-body .card-backed.card .card-media-wrap:first-child .card-img:first-child, .card-panel.cards-list .card-panel-body .card-panel.cards-backed .card .card-media-wrap:first-child .card-img:first-child, .card-panel.cards-backed .card-panel.cards-list .card-panel-body .card .card-media-wrap:first-child .card-img:first-child, .cards-list.card-panel-flush .card-panel-body .card-panel.cards-backed .card .card-media-wrap:first-child .card-img:first-child, .card-panel.cards-backed .cards-list.card-panel-flush .card-panel-body .card .card-media-wrap:first-child .card-img:first-child, .card-panel.cards-list .card-panel-body .cards-backed.card-panel-flush .card .card-media-wrap:first-child .card-img:first-child, .cards-backed.card-panel-flush .card-panel.cards-list .card-panel-body .card .card-media-wrap:first-child .card-img:first-child, .cards-list.card-panel-flush .card-panel-body .cards-backed.card-panel-flush .card .card-media-wrap:first-child .card-img:first-child, .cards-backed.card-panel-flush .cards-list.card-panel-flush .card-panel-body .card .card-media-wrap:first-child .card-img:first-child, .card-panel.cards-backed .card-list-item.card .card-media-wrap:first-child .card-img:first-child, .cards-backed.card-panel-flush .card-list-item.card .card-media-wrap:first-child .card-img:first-child, .card-panel.cards-backed .card-panel-body .card-panel-list .card .card-media-wrap:first-child .card-img:first-child, .card-panel .card-panel-body .card-panel-list .cards-backed.card-panel-flush .card .card-media-wrap:first-child .card-img:first-child, .card-panel-flush .card-panel-body .card-panel-list .card-panel.cards-backed .card .card-media-wrap:first-child .card-img:first-child, .cards-backed.card-panel-flush .card-panel-body .card-panel-list .card .card-media-wrap:first-child .card-img:first-child, .card-panel .card-panel-body .card-panel-list .card-backed.card .card-media-wrap:first-child .card-img:first-child, .card-panel-flush .card-panel-body .card-panel-list .card-backed.card .card-media-wrap:first-child .card-img:first-child,
-  .card-backed.card-list-item .card-media-wrap:first-child img:first-child, .card-panel.cards-list .card-panel-body .card-backed.card .card-media-wrap:first-child img:first-child, .cards-list.card-panel-flush .card-panel-body .card-backed.card .card-media-wrap:first-child img:first-child, .card-panel.cards-list .card-panel-body .card-panel.cards-backed .card .card-media-wrap:first-child img:first-child, .card-panel.cards-backed .card-panel.cards-list .card-panel-body .card .card-media-wrap:first-child img:first-child, .cards-list.card-panel-flush .card-panel-body .card-panel.cards-backed .card .card-media-wrap:first-child img:first-child, .card-panel.cards-backed .cards-list.card-panel-flush .card-panel-body .card .card-media-wrap:first-child img:first-child, .card-panel.cards-list .card-panel-body .cards-backed.card-panel-flush .card .card-media-wrap:first-child img:first-child, .cards-backed.card-panel-flush .card-panel.cards-list .card-panel-body .card .card-media-wrap:first-child img:first-child, .cards-list.card-panel-flush .card-panel-body .cards-backed.card-panel-flush .card .card-media-wrap:first-child img:first-child, .cards-backed.card-panel-flush .cards-list.card-panel-flush .card-panel-body .card .card-media-wrap:first-child img:first-child, .card-panel.cards-backed .card-list-item.card .card-media-wrap:first-child img:first-child, .cards-backed.card-panel-flush .card-list-item.card .card-media-wrap:first-child img:first-child, .card-panel.cards-backed .card-panel-body .card-panel-list .card .card-media-wrap:first-child img:first-child, .card-panel .card-panel-body .card-panel-list .cards-backed.card-panel-flush .card .card-media-wrap:first-child img:first-child, .card-panel-flush .card-panel-body .card-panel-list .card-panel.cards-backed .card .card-media-wrap:first-child img:first-child, .cards-backed.card-panel-flush .card-panel-body .card-panel-list .card .card-media-wrap:first-child img:first-child, .card-panel .card-panel-body .card-panel-list .card-backed.card .card-media-wrap:first-child img:first-child, .card-panel-flush .card-panel-body .card-panel-list .card-backed.card .card-media-wrap:first-child img:first-child,
-  .cards-list .card-backed .card-media-wrap:first-child .card-img-top,
-  .cards-list .card-panel.cards-backed .card .card-media-wrap:first-child .card-img-top, .card-panel.cards-backed
-  .cards-list .card .card-media-wrap:first-child .card-img-top,
-  .cards-list .cards-backed.card-panel-flush .card .card-media-wrap:first-child .card-img-top, .cards-backed.card-panel-flush
-  .cards-list .card .card-media-wrap:first-child .card-img-top,
-  .cards-list .card-backed .card-media-wrap:first-child .card-img:first-child,
-  .cards-list .card-panel.cards-backed .card .card-media-wrap:first-child .card-img:first-child, .card-panel.cards-backed
-  .cards-list .card .card-media-wrap:first-child .card-img:first-child,
-  .cards-list .cards-backed.card-panel-flush .card .card-media-wrap:first-child .card-img:first-child, .cards-backed.card-panel-flush
-  .cards-list .card .card-media-wrap:first-child .card-img:first-child,
-  .cards-list .card-backed .card-media-wrap:first-child img:first-child,
-  .cards-list .card-panel.cards-backed .card .card-media-wrap:first-child img:first-child, .card-panel.cards-backed
-  .cards-list .card .card-media-wrap:first-child img:first-child,
-  .cards-list .cards-backed.card-panel-flush .card .card-media-wrap:first-child img:first-child, .cards-backed.card-panel-flush
-  .cards-list .card .card-media-wrap:first-child img:first-child,
-  .cards-list.cards-backed .card .card-media-wrap:first-child .card-img-top,
-  .cards-list.cards-backed .card .card-media-wrap:first-child .card-img:first-child,
-  .cards-list.cards-backed .card .card-media-wrap:first-child img:first-child {
-    margin-left: 16px;
-    margin-left: 1rem;
     margin-bottom: 16px;
     margin-bottom: 1rem; }
 
@@ -9983,9 +9946,7 @@ blockquote.pull-quote {
 
 .kent-slider .kent-slide {
   position: relative;
-  cursor: ew-resize;
   cursor: -webkit-grab;
-  cursor: -moz-grab;
   width: 100%; }
   .kent-slider .kent-slide .media-wrap-fill {
     background-color: #333; }
@@ -10539,11 +10500,11 @@ article.content-page {
   list-style: none;
   text-shadow: none; }
   .card.header-card-overlay ul.menu li {
-    display: inline-block;
-    margin: 0 16px 0 0;
-    margin: 0 1rem 0 0;
+    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
     padding: 0; }
     .card.header-card-overlay ul.menu li a {
+      width: 100%;
       color: #05345C;
       background-color: #FFF;
       border-color: #FFF; }
@@ -10569,6 +10530,12 @@ article.content-page {
       fieldset[disabled] .card.header-card-overlay ul.menu li a:hover {
         background-color: #FFF;
         border-color: #FFF; }
+    @media (min-width: 544px) {
+      .card.header-card-overlay ul.menu li {
+        display: inline-block;
+        margin: 0 1rem 0 0; }
+        .card.header-card-overlay ul.menu li a {
+          width: auto; } }
     .card.header-card-overlay ul.menu li:before {
       content: '';
       display: none; }
