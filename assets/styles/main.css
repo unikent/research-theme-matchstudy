@@ -10539,11 +10539,11 @@ article.content-page {
   list-style: none;
   text-shadow: none; }
   .card.header-card-overlay ul.menu li {
-    display: inline-block;
-    margin: 0 16px 0 0;
-    margin: 0 1rem 0 0;
+    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
     padding: 0; }
     .card.header-card-overlay ul.menu li a {
+      width: 100%;
       color: #05345C;
       background-color: #FFF;
       border-color: #FFF; }
@@ -10569,6 +10569,12 @@ article.content-page {
       fieldset[disabled] .card.header-card-overlay ul.menu li a:hover {
         background-color: #FFF;
         border-color: #FFF; }
+    @media (min-width: 544px) {
+      .card.header-card-overlay ul.menu li {
+        display: inline-block;
+        margin: 0 1rem 0 0; }
+        .card.header-card-overlay ul.menu li a {
+          width: auto; } }
     .card.header-card-overlay ul.menu li:before {
       content: '';
       display: none; }
