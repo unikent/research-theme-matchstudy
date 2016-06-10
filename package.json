@@ -1,0 +1,23 @@
+{
+  "name": "research-theme-matchstudy",
+  "version": "1.0.0",
+  "author": "IS WEBDEV <is-webdev@kent.ac.uk>",
+  "homepage": "https://github.com/unikent/research-theme-matchstudy",
+  "repository": {
+    "type": "git",
+    "url": "git://unikent/research-theme-matchstudy"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.5",
+
+    "load-grunt-tasks": "~1.0.0",
+    "grunt-sass": "^1.1.0",
+    "time-grunt": "~1.0.0"
+  }
+}

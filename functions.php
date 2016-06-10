@@ -9,6 +9,7 @@
  */
 $theme_includes = [
 	'lib/call_to_action.php',       // Add call to action menu
+	'lib/metaboxes-matchstudy.php', // Metaboxes
 ];
 
 foreach($theme_includes as $file) {
