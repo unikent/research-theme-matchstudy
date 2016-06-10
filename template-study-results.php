@@ -5,6 +5,7 @@
 
 use Unikent\ResearchWP\Setup;
 use Unikent\ResearchWP\Wrapper;
+use Unikent\ResearchWP\Utils;
 
 ?>
 <?php
@@ -16,7 +17,7 @@ while (have_posts()) : the_post();
             <div class="card-panel-body" data-category="all">
                 <div class="card card-backed card-backed-secondary">
                     <div class="card-header">
-                        <p class="h1" style="font-size: 4rem;"><?php echo $position = get_post_meta($post->ID, 'study_results_participants', true);?></p>
+                        <p class="h1 infographic" ><?php echo $position = get_post_meta($post->ID, 'study_results_participants', true);?></p>
 
                     </div>
                     <p class="card-title">participants recruited</p>
@@ -25,7 +26,7 @@ while (have_posts()) : the_post();
 
                 <hr><div class="card card-backed card-backed-secondary">
                     <div class="card-header">
-                        <p class="h1" style="font-size: 4rem;"><?php echo get_post_meta($post->ID, 'study_results_articles', true); ?></p>
+                        <p class="h1 infographic"><?php echo get_post_meta($post->ID, 'study_results_articles', true); ?></p>
 
                     </div>
                     <p class="card-title">articles &amp; publications published</p>
@@ -41,12 +42,14 @@ while (have_posts()) : the_post();
                 </div>
             </div>
         </div>
-            <div class="content-main content-main-centered">
-                <div class="content-container">
-
+        <div class="container">
+            <div class="content-main">
                 <?php get_template_part('templates/content', 'page'); ?>
             </div>
+            <?php Utils::get_template_view('templates/content-news-panel')?>
         </div>
-    </div>
 
+
+    </div>
 <?php endwhile; ?>
+
