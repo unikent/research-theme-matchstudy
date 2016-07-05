@@ -3466,12 +3466,10 @@ input[type="button"].btn-block {
 
 @media (min-width: 544px) {
   .card-columns {
-    -webkit-column-count: 3;
-       -moz-column-count: 3;
-            column-count: 3;
-    -webkit-column-gap: 1.25rem;
-       -moz-column-gap: 1.25rem;
-            column-gap: 1.25rem; }
+    -moz-column-count: 3;
+         column-count: 3;
+    -moz-column-gap: 1.25rem;
+         column-gap: 1.25rem; }
     .card-columns .card {
       display: inline-block;
       width: 100%; } }
@@ -5431,7 +5429,7 @@ body .kf.pull-right {
   position: relative;
   max-width: 100%;
   min-width: 200px;
-  font-family: Avenir, "Avenir Next", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: "San Francisco", -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", Avenir, "Avenir Next", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
   direction: ltr; }
   .plyr,
   .plyr *,
@@ -5638,8 +5636,7 @@ body .kf.pull-right {
   -ms-flex-align: center;
       align-items: center;
   line-height: 1;
-  text-align: center;
-  transition: opacity .3s ease; }
+  text-align: center; }
   .plyr__controls > button,
   .plyr__controls .plyr__progress,
   .plyr__controls .plyr__time {
@@ -5684,7 +5681,8 @@ body .kf.pull-right {
       margin-left: 10px; } }
 
 .plyr--hide-controls .plyr__controls {
-  opacity: 0; }
+  opacity: 0;
+  pointer-events: none; }
 
 .plyr--video .plyr__controls {
   position: absolute;
@@ -5695,7 +5693,8 @@ body .kf.pull-right {
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
   border-bottom-left-radius: inherit;
   border-bottom-right-radius: inherit;
-  color: #fff; }
+  color: #fff;
+  transition: opacity .3s ease; }
   .plyr--video .plyr__controls button.tab-focus:focus, .plyr--video .plyr__controls button:hover {
     background: #3498db;
     color: #fff; }
@@ -5714,6 +5713,7 @@ body .kf.pull-right {
 .plyr__play-large {
   display: none;
   position: absolute;
+  z-index: 1;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -5950,8 +5950,7 @@ body .kf.pull-right {
 .plyr__time {
   display: inline-block;
   vertical-align: middle;
-  font-size: 14px;
-  line-height: .95; }
+  font-size: 14px; }
 
 .plyr__time + .plyr__time {
   display: none; }
@@ -7802,16 +7801,13 @@ input[type=number]::-webkit-outer-spin-button {
   margin-bottom: 2rem; }
   @media (min-width: 768px) {
     .jump-links {
-      -webkit-column-count: 2;
-         -moz-column-count: 2;
-              column-count: 2;
-      -webkit-column-gap: 2rem;
-         -moz-column-gap: 2rem;
-              column-gap: 2rem; } }
+      -moz-column-count: 2;
+           column-count: 2;
+      -moz-column-gap: 2rem;
+           column-gap: 2rem; } }
   .jump-links p {
-    -webkit-column-span: all;
-       -moz-column-span: all;
-            column-span: all; }
+    -moz-column-span: all;
+         column-span: all; }
   .jump-links a {
     display: block; }
     .jump-links a:before {
