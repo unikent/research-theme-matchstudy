@@ -10,7 +10,7 @@ if($group !== null){
 
 $people = new WP_Query($query_params);
 ?>
-<div class="card-panel cards-backed cards-backed-tertiary cards-centered">
+<div class="card-panel cards-backed cards-backed-primary-tint cards-centered">
 	<div class="card-panel-header">
 		<h2><?php echo $group->name; ?></h2>
 	</div>

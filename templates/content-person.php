@@ -20,11 +20,13 @@ if($link){
 }
 
 ?>
-<div <?php post_class($class); ?>>
-	<?php if($link){?><a href="<?php echo $link; ?>" class="card-title-link"><?php } ?><h3 class="card-title"><?php the_title(); ?></h3><?php if($link){?></a><?php } ?>
-	<p class="card-subtitle"><?php echo get_post_meta($post->ID, 'SubHeading', true); ?></p>
-	<div class="card-text"><?php the_content(); ?></div>
-	<?php if($link){?>
-	<a href="<?php echo $link; ?>" class="faux-link-overlay" aria-hidden="true"><?php the_title(); ?></a>
-	<?php } ?>
+<div class="card-panel-single person">
+	<div <?php post_class($class); ?>>
+		<?php if($link){?><a href="<?php echo $link; ?>" class="card-title-link"><?php } ?><h3 class="card-title"><?php the_title(); ?></h3><?php if($link){?></a><?php } ?>
+		<p class="card-subtitle"><?php echo get_post_meta($post->ID, 'SubHeading', true); ?></p>
+		<div class="card-text"><?php the_content(); ?></div>
+		<?php if($link){?>
+		<a href="<?php echo $link; ?>" class="faux-link-overlay" aria-hidden="true"><?php the_title(); ?></a>
+		<?php } ?>
+	</div>
 </div>
