@@ -3,4 +3,7 @@
 	@include media-breakpoint-up(lg) {
 	 	width: 50%;
 	}
+	.card-linked:hover {
+		background-color: $brand-secondary;
+	}
 }

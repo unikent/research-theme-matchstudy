@@ -10578,6 +10578,14 @@ article.content-page {
 .home .card.header-card-overlay .card-title-wrap {
   pointer-events: all; }
 
+.card-panel-single.person {
+  width: 100%; }
+  @media (min-width: 992px) {
+    .card-panel-single.person {
+      width: 50%; } }
+  .card-panel-single.person .card-linked:hover {
+    background-color: #F5F5F5; }
+
 .infographic {
   font-size: 4em; }
 
