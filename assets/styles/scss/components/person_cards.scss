@@ -6,4 +6,8 @@
 	.card-linked:hover {
 		background-color: $brand-secondary;
 	}
+	.card {
+		// Flexbox makes the card panels equal heights, but the card background doesn't inherit this
+		height: calc(100% - $spacer);
+	}
 }
