@@ -10586,7 +10586,7 @@ article.content-page {
   .card-panel-single.person .card-linked:hover {
     background-color: #F5F5F5; }
   .card-panel-single.person .card {
-    height: calc(100% - $spacer); }
+    height: calc(100% - 1rem); }
 
 .infographic {
   font-size: 4em; }
