@@ -10585,6 +10585,8 @@ article.content-page {
       width: 50%; } }
   .card-panel-single.person .card-linked:hover {
     background-color: #F5F5F5; }
+  .card-panel-single.person .card {
+    height: calc(100% - $spacer); }
 
 .infographic {
   font-size: 4em; }
